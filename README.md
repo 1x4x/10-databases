@@ -1,6 +1,15 @@
 # 10-databaser
+| Fnamn | Enamn | Adress | Postnr | Stad | Telefon | Email | Modell | Märke |
+|-------|-------|--------|--------|------|---------|-------|--------|-------|
+| Lars | Persson | Skolg. 2 | 23456 | Hässleholm | 07212344 | lars@live.se | Ferrari | F40 |
+| Anna | Nilsson | Borgv. 4 | 14577 | Stockholm | 07012345 | anna@live.se | Bugatti | Veyron |
+| Anna | Nilsson | Borgv. 4 | 14577 | Stockholm | 07012345 | anna@live.se | Mercedes | C112 |
+| Lars | Persson | Skolg. 2 | 23456 | Hässleholm | 07212344 | lars@live.se | Toyota | Corolla |
+| Bo | Karlsson | Furuv. 8 | 12388 | Göteborg | 01055223 | bo@live.se | Nissan | Pulsar |
+| Lars | Persson | Skolg. 2 | 23456 | Hässleholm | 07212344 | lars@live.se | Ford | Mustang |
 
-Questions and Answers<br>
+
+##Questions and Answers<br>
 1. Add two more cars for Bo Karlsson to the table.<br>
 > [!NOTE]
 > INSERT INTO person (Fnamn, Enamn, Adress, Postnr, Stad, Telefon, Email, Modell, Märke)
