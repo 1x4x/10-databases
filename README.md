@@ -14,6 +14,10 @@ Questions and Answers<br>
 
 2. Every time we add a new car for Bo, we have to re-enter his details.<br>
 a. Provide at least two reasons why this is not ideal.<br>
+> [!NOTE]
+> Reduntant "person data" about Bo in every row containing every car Bo owns
+> If another developer in the company that did not build this part is tasked to change this in the future they will maybe not understand that the same data is saved in multiple places and can for example change the data in 1 place but then its still wrong in the other places (rows) and can have unintended effects in the system. for example maybe a package will be sent to the wrong adress if the addresss would be used for that.
+
 3. To solve this problem, we need a primary key and a secondary key. Define these terms and<br>
 explain the difference between them.<br>
 4. Is a personal identity number (personnummer) a good choice for a primary key? Justify your answer.<br>
