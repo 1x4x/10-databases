@@ -34,7 +34,13 @@
 a. Provide at least two reasons why this is not ideal.<br>
 > [!NOTE]
 > Reduntant "person data" about Bo in every row containing every car Bo owns
-> If another developer in the company that did not build this part is tasked to change this in the future they will maybe not understand that the same data is saved in multiple places and can for example change the data in 1 place but then its still wrong in the other places (rows) and can have unintended effects in the system. for example maybe a package will be sent to the wrong adress if the addresss would be used for that.
+> 1. Data redundancy: We have to enter Bo's personal information (name, address, phone number, email, etc.) every time we add a new car. This wastes storage space and makes the database less efficient.
+
+> 2. Risk of inconsistent data: If Bo changes his address or phone number, we must update every record associated with him. If we forget to update one, the database will contain incorrect or inconsistent information.
+
+> 3. Increased risk of errors: Re-entering the same information multiple times increases the chance of typing mistakes.
+
+> Solution: Split the table into two separate tables: one for people (Person) and one for cars (Car). Connect them using a primary key and foreign key. This way, Bo's personal information is stored only once, and we can add new cars without repeating it. This is called database normalization.
 
 3. To solve this problem, we need a primary key and a secondary key. Define these terms and<br>
 explain the difference between them.<br>
