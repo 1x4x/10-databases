@@ -15,7 +15,7 @@
 > INSERT INTO person (Fnamn, Enamn, Adress, Postnr, Stad, Telefon, Email, Modell, Märke)
 > VALUES ('Bo', 'Karlsson', 'Furuv. 8', '12388', 'Göteborg', '01055223', 'bokarlsson@hotmail.com', 'Volvo', 'XC90');
 
-> [!NOTE]
+
 > INSERT INTO person (Fnamn, Enamn, Adress, Postnr, Stad, Telefon, Email, Modell, Märke)
 > VALUES ('Anna', 'Nilsson', 'Borgv. 4', '14577', 'Stockholm', '07012345', 'annapanna@live.se', 'BMW', 'M3');
 
