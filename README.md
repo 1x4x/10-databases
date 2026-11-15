@@ -2,11 +2,14 @@
 
 Questions and Answers<br>
 1. Add two more cars for Bo Karlsson to the table.<br>
-`INSERT INTO person (Fnamn, Enamn, Adress, Postnr, Stad, Telefon, Email, Modell, Märke)
-VALUES ('Bo', 'Karlsson', 'Furuv. 8', '12388', 'Göteborg', '01055223', 'bo@live.se', 'Volvo', 'XC90');`
+> [!NOTE]
+> INSERT INTO person (Fnamn, Enamn, Adress, Postnr, Stad, Telefon, Email, Modell, Märke)
+> VALUES ('Bo', 'Karlsson', 'Furuv. 8', '12388', 'Göteborg', '01055223', 'bo@live.se', 'Volvo', 'XC90');
 
-`INSERT INTO person (Fnamn, Enamn, Adress, Postnr, Stad, Telefon, Email, Modell, Märke)
-VALUES ('Anna', 'Nilsson', 'Borgv. 4', '14577', 'Stockholm', '07012345', 'anna@live.se', 'BMW', 'M3');`
+> [!NOTE]
+> INSERT INTO person (Fnamn, Enamn, Adress, Postnr, Stad, Telefon, Email, Modell, Märke)
+> VALUES ('Anna', 'Nilsson', 'Borgv. 4', '14577', 'Stockholm', '07012345', 'anna@live.se', 'BMW', 'M3');
+
 
 
 2. Every time we add a new car for Bo, we have to re-enter his details.<br>
