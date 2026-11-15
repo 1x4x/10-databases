@@ -49,8 +49,8 @@ explain the difference between them.<br>
 
 > Difference: A primary key uniquely identifies each record, while a secondary key is mainly used to make searching and retrieving data easier.
 > Example using our database
-- Primary Key: PersonID – A unique number assigned to each person, such as Bo Karlsson having PersonID = 3.
-- Secondary Key: Enamn – Can be used to search for people by their last name, even if multiple people have the same last name.
+> - Primary Key: PersonID – A unique number assigned to each person, such as Bo Karlsson having PersonID = 3.
+> - Secondary Key: Enamn – Can be used to search for people by their last name, even if multiple people have the same last name.
 > Important: To solve our original problem, we actually need a foreign key (FK) rather than a secondary key. A foreign key connects two tables by referencing a primary key in another table.
 
 > For example, the Car table can use PersonID = 3 as a foreign key to connect Bo Karlsson to all his cars without repeating his personal information.
