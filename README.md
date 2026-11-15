@@ -43,6 +43,18 @@ a. Provide at least two reasons why this is not ideal.<br>
 
 3. To solve this problem, we need a primary key and a secondary key. Define these terms and<br>
 explain the difference between them.<br>
+> Primary Key (PK): A primary key is a unique identifier for each record in a database table. It ensures that every record can be identified individually. > A primary key cannot contain duplicate or NULL values.
+
+> Secondary Key: A secondary key is a field used to help search, sort, or retrieve data. Unlike a primary key, it does not have to be unique and can contain duplicate values.
+
+> Difference: A primary key uniquely identifies each record, while a secondary key is mainly used to make searching and retrieving data easier.
+> Example using our database
+- Primary Key: PersonID – A unique number assigned to each person, such as Bo Karlsson having PersonID = 3.
+- Secondary Key: Enamn – Can be used to search for people by their last name, even if multiple people have the same last name.
+> Important: To solve our original problem, we actually need a foreign key (FK) rather than a secondary key. A foreign key connects two tables by referencing a primary key in another table.
+
+> For example, the Car table can use PersonID = 3 as a foreign key to connect Bo Karlsson to all his cars without repeating his personal information.
+
 4. Is a personal identity number (personnummer) a good choice for a primary key? Justify your answer.<br>
 5. Should a secondary key be unique? Justify your answer.<br>
 6. What is the difference between data and information?<br>
