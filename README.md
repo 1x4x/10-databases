@@ -91,19 +91,19 @@ explain the difference between them.<br>
 
 8. Restructure the table so that the car owner's details only need to be entered once.<br>
 
-To avoid entering the same owner's details multiple times, we can split the original table into two separate tables: Person and Car. One-toMany (1:N).
+> To avoid entering the same owner's details multiple times, we can split the original table into two separate tables: Person and Car. One-toMany (1:N).
 
-Each person gets a unique PersonID (Primary Key), and each car uses PersonID as a Foreign Key to identify its owner.
-1. Person Table
-Stores each person's information only once.
+> Each person gets a unique PersonID (Primary Key), and each car uses PersonID as a Foreign Key to identify its owner.
+## 1. Person Table
+> Stores each person's information only once.
 | PersonID (PK) | Fnamn | Enamn | Adress | Postnr | Stad | Telefon | Email |
 |---------------|-------|-------|--------|--------|------|---------|-------|
 | 1 | Lars | Persson | Skolg. 2 | 23456 | Hässleholm | 07212344 | lars@live.se |
 | 2 | Anna | Nilsson | Borgv. 4 | 14577 | Stockholm | 07012345 | anna@live.se |
 | 3 | Bo | Karlsson | Furuv. 8 | 12388 | Göteborg | 01055223 | bo@live.se |
 
-2. Car Table
-Stores each car separately and connects it to its owner using PersonID.
+## 2. Car Table
+> Stores each car separately and connects it to its owner using PersonID.
 | CarID (PK) | PersonID (FK) | Modell | Märke |
 |------------|---------------|--------|-------|
 | 1 | 1 | Ferrari | F40 |
