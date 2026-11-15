@@ -33,7 +33,6 @@
 2. Every time we add a new car for Bo, we have to re-enter his details.<br>
 a. Provide at least two reasons why this is not ideal.<br>
 > [!NOTE]
-> Reduntant "person data" about Bo in every row containing every car Bo owns
 > 1. Data redundancy: We have to enter Bo's personal information (name, address, phone number, email, etc.) every time we add a new car. This wastes storage space and makes the database less efficient.
 
 > 2. Risk of inconsistent data: If Bo changes his address or phone number, we must update every record associated with him. If we forget to update one, the database will contain incorrect or inconsistent information.
