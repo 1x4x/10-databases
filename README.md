@@ -124,21 +124,9 @@ explain the difference between them.<br>
 > - One-to-Many (1:N): One person can own multiple cars, but each car has one owner in this database.
 > Result: When Bo Karlsson buys another car, we only need to add a new record to the Car table using PersonID = 3. His personal information does not need to be entered again.
 
-This process is called database normalization, which reduces duplicated data and makes the database easier to maintain.
+> This process is called database normalization, which reduces duplicated data and makes the database easier to maintain.
 
 
-
-Frågor och Svar<br>
-1. Lägg in ytterligare två bilar för Bo Karlsson i tabellen.<br>
-2. Varje gång vi lägger in en ny bil för Bo måste vi skriva hans uppgifter igen.<br>
-a. Ange minst två skäl till varför detta inte är bra.<br>
-3. För att lösa problemet behöver vi primärnyckel och sekundärnyckel. Beskriv dessa och<br>
-ange vad skillnaden är.<br>
-4. Är personnummer ett bra val för en primärnyckel? Motivera.<br>
-5. Ska sekundärnyckeln vara unik? Motivera.<br>
-6. Vad är skillnaden på data och information?<br>
-7. Ge exempel på de minst två av relationerna en till en, en till många och många till många.<br>
-8. Gör om tabellen så att vi endast behöver mata in bilägarens uppgifter en gång.<br>
 
 
 
