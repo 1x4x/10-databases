@@ -119,6 +119,13 @@ explain the difference between them.<br>
 
 
 
+> - Primary Key (PK): Uniquely identifies each person or car.
+> - Foreign Key (FK): Connects each car to its owner.
+> - One-to-Many (1:N): One person can own multiple cars, but each car has one owner in this database.
+> Result: When Bo Karlsson buys another car, we only need to add a new record to the Car table using PersonID = 3. His personal information does not need to be entered again.
+
+This process is called database normalization, which reduces duplicated data and makes the database easier to maintain.
+
 
 
 Frågor och Svar<br>
