@@ -9,7 +9,7 @@
 | Lars | Persson | Skolg. 2 | 23456 | Hässleholm | 07212344 | lars@live.se | Ford | Mustang |
 
 
-##Questions and Answers<br>
+## Questions and Answers<br>
 1. Add two more cars for Bo Karlsson to the table.<br>
 > [!NOTE]
 > INSERT INTO person (Fnamn, Enamn, Adress, Postnr, Stad, Telefon, Email, Modell, Märke)
