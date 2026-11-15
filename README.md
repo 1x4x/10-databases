@@ -81,9 +81,39 @@ explain the difference between them.<br>
 > The main difference is that data consists of raw facts, while information gives those facts meaning and context.
 
 7. Provide examples for at least two of the following types of relationships: one-to-one, one-to-many, and many-to-many.<br>
+> 1. One-to-One (1:1): One record in a table is connected to exactly one record in another table.
+> - Example: One person has one passport, and each passport belongs to one person.
+> 2. One-to-Many (1:N): One record in a table can be connected to multiple records in another table.
+> - Example: Bo Karlsson owns multiple cars (Volvo XC90, BMW M3, Nissan Pulsar), but each car belongs to only one person.
+> 3. Many-to-Many (M:N): Multiple records in one table can be connected to multiple records in another table.
+> - Example: A student can attend multiple courses, and each course can have multiple students.
+
+
 8. Restructure the table so that the car owner's details only need to be entered once.<br>
 
+To avoid entering the same owner's details multiple times, we can split the original table into two separate tables: Person and Car. One-toMany (1:N).
 
+Each person gets a unique PersonID (Primary Key), and each car uses PersonID as a Foreign Key to identify its owner.
+1. Person Table
+Stores each person's information only once.
+| PersonID (PK) | Fnamn | Enamn | Adress | Postnr | Stad | Telefon | Email |
+|---------------|-------|-------|--------|--------|------|---------|-------|
+| 1 | Lars | Persson | Skolg. 2 | 23456 | Hässleholm | 07212344 | lars@live.se |
+| 2 | Anna | Nilsson | Borgv. 4 | 14577 | Stockholm | 07012345 | anna@live.se |
+| 3 | Bo | Karlsson | Furuv. 8 | 12388 | Göteborg | 01055223 | bo@live.se |
+
+2. Car Table
+Stores each car separately and connects it to its owner using PersonID.
+| CarID (PK) | PersonID (FK) | Modell | Märke |
+|------------|---------------|--------|-------|
+| 1 | 1 | Ferrari | F40 |
+| 2 | 2 | Bugatti | Veyron |
+| 3 | 2 | Mercedes | C112 |
+| 4 | 1 | Toyota | Corolla |
+| 5 | 3 | Nissan | Pulsar |
+| 6 | 1 | Ford | Mustang |
+| 7 | 3 | Volvo | XC90 |
+| 8 | 3 | BMW | M3 |
 
 
 
