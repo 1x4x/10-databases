@@ -17,6 +17,17 @@
 > INSERT INTO person (Fnamn, Enamn, Adress, Postnr, Stad, Telefon, Email, Modell, Märke)
 > VALUES ('Bo', 'Karlsson', 'Furuv. 8', '12388', 'Göteborg', '01055223', 'bo@live.se', 'BMW', 'M3');
 
+## Here is the table after we added 2 more cars for Bo
+| Fnamn | Enamn | Adress | Postnr | Stad | Telefon | Email | Modell | Märke |
+|-------|-------|--------|--------|------|---------|-------|--------|-------|
+| Lars | Persson | Skolg. 2 | 23456 | Hässleholm | 07212344 | lars@live.se | Ferrari | F40 |
+| Anna | Nilsson | Borgv. 4 | 14577 | Stockholm | 07012345 | anna@live.se | Bugatti | Veyron |
+| Anna | Nilsson | Borgv. 4 | 14577 | Stockholm | 07012345 | anna@live.se | Mercedes | C112 |
+| Lars | Persson | Skolg. 2 | 23456 | Hässleholm | 07212344 | lars@live.se | Toyota | Corolla |
+| Bo | Karlsson | Furuv. 8 | 12388 | Göteborg | 01055223 | bo@live.se | Nissan | Pulsar |
+| Lars | Persson | Skolg. 2 | 23456 | Hässleholm | 07212344 | lars@live.se | Ford | Mustang |
+| Bo | Karlsson | Furuv. 8 | 12388 | Göteborg | 01055223 | bo@live.se | Volvo | XC90 |
+| Bo | Karlsson | Furuv. 8 | 12388 | Göteborg | 01055223 | bo@live.se | BMW | M3 |
 
 
 2. Every time we add a new car for Bo, we have to re-enter his details.<br>
