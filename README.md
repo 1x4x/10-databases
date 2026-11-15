@@ -56,8 +56,30 @@ explain the difference between them.<br>
 > For example, the Car table can use PersonID = 3 as a foreign key to connect Bo Karlsson to all his cars without repeating his personal information.
 
 4. Is a personal identity number (personnummer) a good choice for a primary key? Justify your answer.<br>
+> A personal identity number (personnummer) can be used as a primary key because it is unique to each person and helps prevent duplicate records.
+
+> However, it is not the best choice because it contains sensitive personal information, which creates privacy and security risks. It can also cause problems if a person's identity number changes or needs to be corrected.
+
+> A better solution is to use an automatically generated PersonID as the primary key. This keeps personal information separate and makes the database easier to manage.
+
 5. Should a secondary key be unique? Justify your answer.<br>
+> No, a secondary key does not have to be unique because its purpose is to help search, sort, and retrieve data rather than uniquely identify each record.
+
+> For example, if Enamn (last name) is a secondary key, multiple people can have the same last name, such as "Karlsson". The database can still use it to find all people with that name.
+
+> Unlike a primary key, a secondary key can contain duplicate values.
+
 6. What is the difference between data and information?<br>
+
+> Data is raw facts and values that have not yet been processed or organized, such as names, numbers, or dates.
+
+> Information is data that has been processed, organized, or given context so that it becomes meaningful and useful.
+
+> Example:
+> - Data: "Bo", "Karlsson", "Volvo", "XC90".
+> - Information: "Bo Karlsson owns a Volvo XC90."
+> The main difference is that data consists of raw facts, while information gives those facts meaning and context.
+
 7. Provide examples for at least two of the following types of relationships: one-to-one, one-to-many, and many-to-many.<br>
 8. Restructure the table so that the car owner's details only need to be entered once.<br>
 
