@@ -2,11 +2,11 @@
 
 Questions and Answers<br>
 1. Add two more cars for Bo Karlsson to the table.<br>
-> [!NOTE]
+> [!1]
 > INSERT INTO person (Fnamn, Enamn, Adress, Postnr, Stad, Telefon, Email, Modell, Märke)
 > VALUES ('Bo', 'Karlsson', 'Furuv. 8', '12388', 'Göteborg', '01055223', 'bo@live.se', 'Volvo', 'XC90');
 
-> [!NOTE]
+> [!2]
 > INSERT INTO person (Fnamn, Enamn, Adress, Postnr, Stad, Telefon, Email, Modell, Märke)
 > VALUES ('Anna', 'Nilsson', 'Borgv. 4', '14577', 'Stockholm', '07012345', 'anna@live.se', 'BMW', 'M3');
 
