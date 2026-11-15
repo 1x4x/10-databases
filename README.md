@@ -95,8 +95,7 @@ explain the difference between them.<br>
 
 > Each person gets a unique PersonID (Primary Key), and each car uses PersonID as a Foreign Key to identify its owner.
 ## 1. Person Table
-<br>
-> Stores each person's information only once.
+Stores each person's information only once.
 
 | PersonID (PK) | Fnamn | Enamn | Adress | Postnr | Stad | Telefon | Email |
 |---------------|-------|-------|--------|--------|------|---------|-------|
@@ -106,8 +105,7 @@ explain the difference between them.<br>
 <br>
 
 ## 2. Car Table
-<br>
-> Stores each car separately and connects it to its owner using PersonID.
+Stores each car separately and connects it to its owner using PersonID.
 <br>
 
 | CarID (PK) | PersonID (FK) | Modell | Märke |
