@@ -129,6 +129,11 @@ Stores each car separately and connects it to its owner using PersonID.
 > This process is called database normalization, which reduces duplicated data and makes the database easier to maintain.
 
 
+## Online Course in Swedish
+- http://www.databasteknik.se/webbkursen/index.html
+
+## Database Book Related to the Course Above
+- http://www.databasteknik.se/boken/index.html
 
 
 
