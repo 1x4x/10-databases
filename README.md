@@ -17,7 +17,7 @@
 > INSERT INTO person (Fnamn, Enamn, Adress, Postnr, Stad, Telefon, Email, Modell, Märke)
 > VALUES ('Bo', 'Karlsson', 'Furuv. 8', '12388', 'Göteborg', '01055223', 'bo@live.se', 'BMW', 'M3');
 
-## Here is the table after we added 2 more cars for Bo
+## Here are the table after we added 2 more cars for Bo
 | Fnamn | Enamn | Adress | Postnr | Stad | Telefon | Email | Modell | Märke |
 |-------|-------|--------|--------|------|---------|-------|--------|-------|
 | Lars | Persson | Skolg. 2 | 23456 | Hässleholm | 07212344 | lars@live.se | Ferrari | F40 |
