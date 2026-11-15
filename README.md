@@ -1,4 +1,4 @@
-# 10-databaser
+# 10-databases
 | Fnamn | Enamn | Adress | Postnr | Stad | Telefon | Email | Modell | Märke |
 |-------|-------|--------|--------|------|---------|-------|--------|-------|
 | Lars | Persson | Skolg. 2 | 23456 | Hässleholm | 07212344 | lars@live.se | Ferrari | F40 |
