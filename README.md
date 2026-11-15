@@ -97,15 +97,19 @@ explain the difference between them.<br>
 ## 1. Person Table
 <br>
 > Stores each person's information only once.
+
 | PersonID (PK) | Fnamn | Enamn | Adress | Postnr | Stad | Telefon | Email |
 |---------------|-------|-------|--------|--------|------|---------|-------|
 | 1 | Lars | Persson | Skolg. 2 | 23456 | Hässleholm | 07212344 | lars@live.se |
 | 2 | Anna | Nilsson | Borgv. 4 | 14577 | Stockholm | 07012345 | anna@live.se |
 | 3 | Bo | Karlsson | Furuv. 8 | 12388 | Göteborg | 01055223 | bo@live.se |
+<br>
 
 ## 2. Car Table
 <br>
 > Stores each car separately and connects it to its owner using PersonID.
+<br>
+
 | CarID (PK) | PersonID (FK) | Modell | Märke |
 |------------|---------------|--------|-------|
 | 1 | 1 | Ferrari | F40 |
